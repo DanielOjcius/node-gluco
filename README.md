@@ -1,4 +1,4 @@
-# node-gluco
+# node-gluco (WIP)
 
 A javascript library for your glucose meter.
 
