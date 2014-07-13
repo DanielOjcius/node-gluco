@@ -12,7 +12,9 @@ A javascript library for your glucose meter.
 
 ### Chrome App
 
-Build:
+Wait, a Chrome App?! Yup, the [hid](https://developer.chrome.com/apps/hid) api will (eventually) land on Chrome stable, and when it does node-gluco will be ready.
+
+Build (requires browserify)
 
     npm run-script chrome
 
