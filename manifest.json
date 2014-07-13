@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+
+    "name": "chrome-gluco",
+    "description": "glucose meter app.",
+    "version": "1.0",
+    "minimum_chrome_version": "36.0.1941.0",
+
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+
+    "permissions": [
+        "http://*/*",
+        "hid",
+        {
+            "usbDevices": [{
+                "vendorId": 6777,
+                "productId": 29712
+            }]
+        }
+    ]
+}
