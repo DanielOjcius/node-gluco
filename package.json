@@ -4,7 +4,8 @@
   "description": "USB glucose meter library.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chrome": "browserify --ignore ./lib/node_hal.js chrome_app_entry.js > window.js"
   },
   "author": "Daniel Tralamazza <daniel@tralamazza.com>",
   "license": "MIT",
